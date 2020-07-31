@@ -5,7 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+/* Your site config here */
+  siteMetadata: {
+    title: `Zach Shirah demo`,
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-typography'
