@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "src/components/Header.js"
+import Header from "../components/header"
 
 export default function About() {
   return (
