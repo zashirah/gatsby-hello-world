@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from 'gatsby'
 import Header from "../components/header"
 
-export default function Home() {
+function Home() {
   return <div>
     <Link to="/contact/">Contact</Link>
     <Header headerText="Hello Gatsby!" />
     </div>
 }
+
+export default Home

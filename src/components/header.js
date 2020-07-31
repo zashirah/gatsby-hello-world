@@ -1,4 +1,8 @@
 import React from "react"
-export default function Header({ headerText }) {
-  return <h1>{headerText}</h1>
+import headerStyles from "./header.module.css"
+
+function Header({ headerText }) {
+  return <h1 className={headerStyles.header}>{headerText}</h1>
 }
+
+export default Header
