@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "/opt/build/repo/src/components/Header"
+import Header from "./components/header"
 
 export default function Contact() {
   return (
